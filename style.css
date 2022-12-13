@@ -1,7 +1,8 @@
     body {
         font-family: sans-serif;
-        color: lightgray;
-        border-left: 5px;
+        border-left-style: solid;
+        border-width: 5px;
+        border-color: lightgray;
         min-height: 100vh;
         max-width: 1000px;
         margin: auto;
@@ -11,8 +12,22 @@
         color: tomato;
     }
 
+    h2 {
+        color: black;
+    }
+
+    p {
+        color: lightgray;
+    }
+
     img {
         width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
     }
 
     li {
@@ -29,4 +44,5 @@
 
     footer {
         padding: 1rem 1rem 2rem 2rem;
+        color: tomato;
     }
