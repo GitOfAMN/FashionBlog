@@ -12,11 +12,17 @@
         color: tomato;
     }
 
-    h2 {
+    h2 h3 {
         color: black;
     }
 
     p {
+        color: lightgray;
+    }
+
+    p::first-letter {
+        font-size: 1.5rem;
+        font-weight: bold;
         color: lightgray;
     }
 
@@ -34,6 +40,11 @@
         display: inline-block;
     }
 
+    .name {
+        display: flex;
+        justify-content: right;
+    }
+
     header {
         padding: 1rem 1rem 2rem 2rem;
     }
@@ -45,4 +56,15 @@
     footer {
         padding: 1rem 1rem 2rem 2rem;
         color: tomato;
+    }
+
+    article {
+        margin: 4rem;
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: lightgray;
+    }
+
+    .copyright {
+        color: lightgray;
     }
